@@ -1,0 +1,45 @@
+.header-wrapper {
+    width: 100%;
+    margin-top: -23px;
+    background: $secondaryCol;
+}
+
+.header-address-box {
+    background: $primaryCol;
+}
+.address-bar.location {
+    color: $secondaryCol;
+    display: inline-flex;
+}
+
+.dealer-name {
+    @media screen and (min-width: 768px) {
+        float: right;
+        margin: 0;
+    }
+}
+
+.brand-dealer-link {
+    font-size: 20px;
+    letter-spacing: .7px;
+    color: $primaryCol;
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+    @media screen and (min-width: 768px) {
+        font-size: 34px;
+    }
+}
+
+.brand-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 15px;
+}

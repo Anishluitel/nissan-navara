@@ -1,0 +1,128 @@
+.feature-section {
+    padding: 40px 0;
+}
+
+.fs-wrapper {
+    background-color: $thirdCol;
+    text-align: center;
+}
+
+.container .fs-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1140px;
+}
+
+.fs-container {
+    @media screen and (min-width:$bp-md) {
+        padding:0 16px;
+    }
+}
+
+.fs-heading {
+    padding: 5px 0 20px 0;
+    @media screen and (min-width:$bp-md) {
+        padding: 15px 0 40px 0;
+    }
+}
+
+.fs-text {
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    margin: 0 0 10.5px;
+    @media screen and (min-width:$bp-md) {
+        max-width: 940px;
+        margin: auto;
+    }
+}
+
+.pure-button.button-brand.button-test-drive {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: $buttonCol;
+    border: 0;
+    padding: 12px 38px 12px 24px;
+    display: inline-block;
+    line-height: normal;
+    text-align: center;
+}
+
+.button-test-drive {
+    margin-top: 7px;
+}
+
+//feature-section-heading//
+
+.heading-text-wrapper {
+    text-align: center;
+    margin: 0 auto;
+    @media screen and (min-width:$bp-md){
+        width: 51%;
+    }
+}
+.fsh-heading {
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    letter-spacing: .11px;
+}
+
+.fsh-tagline {
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 0;
+    -webkit-margin-before: 5px;
+    margin-block-start: 5px;
+    word-wrap: break-word;
+    word-break: break-word;
+    letter-spacing: .11px;
+    @media screen and (min-width:$bp-md){
+        font-size: 28px;
+    }
+}
+
+.fsh-text {
+    font-size: 15px;
+    line-height: 24px;
+    padding: 20px 0;
+}
+
+//feature-four-section-in-a-row//
+.four-in-row-wrapper {
+    display: block;
+    @media screen and (min-width:$bp-sm){
+        display: flex;
+    }
+}
+
+.four-in-row-wrapper .ffr-item {
+    @media screen and (min-width:$bp-sm-2){
+       width: 24%;
+       margin-right: 10px;
+       margin-bottom: 10px;
+    } 
+}
+
+.ffr-text-wrapper {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ffr-text-heading {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 10px 0
+}
+
+.ffr-text {
+    font-size: 14px;
+    padding-top: 3px;
+    padding-bottom: 18px;
+    @media screen and (min-width:$bp-sm-2){
+        font-size: 18px;
+     } 
+}

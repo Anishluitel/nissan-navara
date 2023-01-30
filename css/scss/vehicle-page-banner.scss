@@ -1,0 +1,50 @@
+.vehicle-banner-wrapper .container {
+    @media screen and (min-width: 768px) {
+        position: absolute;
+        top: 0;
+        max-width: 1300px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.banner-text-wrapper {
+    @media screen and (min-width: 768px) {
+        margin: 200px 20px 20px 20px;
+        width: 460px;
+        padding: 0;  
+    }
+}
+
+.banner-image {
+    width: 100%;
+    position: relative;
+}
+
+.banner-sub-heading {
+    color: $primaryCol;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    @media screen and (min-width: 768px) {
+        font-size: 15px;
+        text-align: left;
+        color: $secondaryCol;
+        font-weight: 400px;
+    }
+}
+
+.banner-heading {
+    color: $primaryCol;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 5px;
+    @media screen and (min-width: 768px) {
+        font-size: 36px;
+        text-align: left;
+        color: $secondaryCol;
+    }
+}

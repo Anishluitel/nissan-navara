@@ -1,0 +1,31 @@
+
+.nav-primary-wrapper {
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: block;
+        position: relative;
+        border-top: 1px solid $borderCol;
+    }
+}
+
+.nav-primary-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.nav-primary-link {
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $primaryCol;
+    position: relative;
+    display: block;
+    padding: 12px 0;
+    width: auto;
+    text-align: center;
+}
